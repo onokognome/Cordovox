@@ -24,11 +24,10 @@
 
  // chip setup 
 
-#define OPCODE_READ   0x41    //0x4100
-#define OPCODE_WRITE  0x40    //0x4000
-#define IOCON_ADDR    0x0A    //0x05
-#define IOCON_VALUE   0xA0
-
+#define OPCODE_READ   0x4100
+#define OPCODE_WRITE  0x4000
+#define IOCON_ADDR    0x0A  //0x05
+#define IOCON_VALUE   0x00
 #define IODIRA_ADDR   0x00
 #define IODIRB_ADDR   0x01
 
